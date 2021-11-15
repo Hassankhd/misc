@@ -2,6 +2,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
+/*
+ * This program classifies potential benign and malignant tumors according to trained data and a resulting decision tree
+ */
 public class P2 {
 
     // This code uses all 9 features to train the decision tree
