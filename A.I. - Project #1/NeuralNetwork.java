@@ -13,7 +13,6 @@ import java.text.DecimalFormat;
 public class NeuralNetwork {
 
     private static final String COMMA_DELIMITER = ",";
-    private static final String TRAIN_FILE = "mnist_train.csv";
     private static final String TEST_FILE = "mnist_test.csv";
     private static final String NEW_TEST = "test.txt";
     private static final int MAX_EPOCHS = 100;
