@@ -24,8 +24,7 @@ public class P2 {
         
         System.out.println("# benign: " + numTwos + ", # malignant: " + numFours);
         
-        DecTreeNode root = buildTree(trainData);        
-        printTree(root);
+        DecTreeNode root = buildTree(trainData);
         
        double infoGain = informationGain(trainData, 1, 2);
        System.out.println(infoGain);
@@ -224,14 +223,6 @@ public class P2 {
             }
         }
         return node;
-    }
-
-    /*
-     * Method which given the root of the Decision Tree, prints it 
-     * in the format specified at the webpage for P2 assignment. 
-     */
-    private static void printTree(DecTreeNode node) {
-        // implement method for printing the tree in the correct format
     }
 }
 
