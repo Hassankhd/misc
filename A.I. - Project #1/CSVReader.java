@@ -4,6 +4,9 @@ import java.io.FileReader;
 import java.util.Arrays;
 import java.util.ArrayList;
 
+/*
+ * This file reads the given CSV
+ */
 public class CSVReader {
 
 private String filePath;
